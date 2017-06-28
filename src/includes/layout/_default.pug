@@ -1,0 +1,39 @@
+doctype html
+html.no-js(lang="pt-br", mlns:og="http://opengraphprotocol.org/schema/", xmlns:fb="http://www.facebook.com/2008/fbml", xmlns:website="http://ogp.me/ns/website", prefix="fb: http://ogp.me/ns/ profile: http://ogp.me/ns/profile#")
+    head(itemscope="", itemtype="http://schema.org/WebPage")
+
+        // Meta nameTemplate
+        block meta_generic
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+        meta(name="google", content="notranslate")
+        meta(name="author", content="aaa", itemscope="", itemtype="http://schema.org/Organization", itemprop="author")
+        meta(name="application-name", content="aaa")
+        meta(name="robots", content="index, follow")
+
+        // Meta name og
+        block meta_og
+        meta(property="og:type", content="website")
+        meta(property="og:determiner", content="the")
+        meta(property="og:locale", content="pt_BR")
+        meta(property="fb:app_id", content="#")
+        meta(name="copyright", content="aaa")
+
+        // Google Tag Manager
+        script.
+
+        // End Google Tag Manager
+
+        // Meta name verify
+        meta(name="google-site-verification", content="#")
+        meta(name="norton-safeweb-site-verification", content="#")
+        meta(name="msvalidate.01", content="#")
+
+        // Favicon.ico
+        link(rel="apple-touch-icon", sizes="57x57", href="https://atemporale.it/themes/atemporale/assets/images/favicon/apple-icon-57x57.png")
+
+        // Page CSS
+
+    body
+        block content_page

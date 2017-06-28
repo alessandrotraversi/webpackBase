@@ -1,0 +1,5 @@
+// imports external resources
+@import "resources";
+
+// imports own ITCSS project
+@import "style/settings", "style/tools", "style/generic", "style/elements", "style/objects", "style/components", "style/utilities";

@@ -1,0 +1,22 @@
+extends includes/layout/_default.pug
+
+
+block meta_generic
+    title AAA
+    meta(name="title", content="AAA")
+    meta(name="description", content="AAA")
+    meta(name="keywords", content="aaa, bbb, ccc")
+    link(rel="canonical", href="aaa", itemprop="url")
+    link(rel="shortlink", href="aaa", itemprop="url")
+
+block meta_og
+    meta(property="og:title", content="aaa")
+    meta(property="og:description", content="aaa")
+    meta(property="og:url", content="aaa")
+    meta(property="og:image", content="aaa")
+
+block content_page
+    h1 page title
+    img(src='images/webpack_logo.png', alt="")/
+    include includes/_footer.pug
+
